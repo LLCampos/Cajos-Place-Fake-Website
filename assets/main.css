@@ -1,0 +1,77 @@
+body {
+    background-color: #FFC;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#content {
+    width: 500px;
+    margin: 0 auto;
+    border: 4px double #fc9;
+}
+
+#page-header {
+    position: relative;
+}
+
+#text-page-header {
+    display: inline-block;
+    font-size: 50px;
+}
+
+#img-logo {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    top: -15px;
+    left: 5px;
+}
+
+#citations,
+#logo {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#citations {
+    text-align: center;
+}
+
+#tabs {
+    margin-top: 50px;
+}
+
+.tab {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    background-color: #fa8;
+    cursor: pointer;
+}
+
+.tab-selected {
+    background-color: #fc9;
+    cursor: default;
+}
+
+#main-section-header {
+    background-color: #fc9;
+    text-align: center;
+}
+
+#main-content {
+    margin: auto 15px;
+}
