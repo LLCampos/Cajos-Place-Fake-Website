@@ -1,11 +1,10 @@
 $( document ).ready(function() {
 
+    var content_home = "<h4>Welcome to Cajo's Place Website</h4>";
 
-    var content_home = "<h4>Welcome to Cajo's Place Website</h4>"
+    var content_menu = "<ul><li>Caril de Lentilhas</li><li>Soja à Bolonhesa</li><li>Massa com Bróculos (sem carne)</li><li>Sopa do Cajó</li><li>Papas de Aveia Nojentas</li></ul>";
 
-    var content_menu = "<ul><li>Caril de Lentilhas</li><li>Soja à Bolonhesa</li><li>Massa com Bróculos (sem carne)</li><li>Sopa do Cajó</li><li>Papas de Aveia Nojentas</li></ul>"
-
-    var content_contacts = "<p><strong>Telefone:</strong> 267848484</p><p><strong>Morada:</strong> Rua Salvador Carvalho dos Santos Nº7 1ºFt</p>"
+    var content_contacts = "<p><strong>Telefone:</strong> 267848484</p><p><strong>Morada:</strong> Rua Salvador Carvalho dos Santos Nº7 1ºFt</p>";
 
     $('#main-content').html(content_home);
 
@@ -25,10 +24,6 @@ $( document ).ready(function() {
         } else {
             $('#main-content').html(content_contacts);
         }
-
-
-
-
     });
 
 });
